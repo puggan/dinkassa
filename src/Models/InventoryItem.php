@@ -9,7 +9,7 @@ namespace Dinkassa\Models;
  * @see https://eskassa.se/developer/#inventoryitem-fields
  * updated 2021-01-25
  */
-class InventoryItem
+class InventoryItem extends Base
 {
     /** @var array $_Attributes TODO */
     public $_Attributes;
